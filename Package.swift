@@ -5,6 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "cgtk-swift",
-    pkgConfig: "gtk",
-    providers: [.brew(["gtk+"]), .apt(["gtk+"])]
+    pkgConfig: "gtk+-3.0",
+    providers: [.brew(["gtk+"]), .apt(["gtk-3-dev"])]
 )
